@@ -31,7 +31,7 @@ DetectGame.Text = ""
 DetectGame.TextColor3 = Color3.fromRGB(255, 255, 255)
 DetectGame.TextSize = 20.000
 DetectGame.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/testingyourpatience.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/testingyourpatience.lua", true))()
 wait()
 game:GetService("CoreGui")["SpecificUniversal"]:Destroy()
 end)
@@ -69,7 +69,7 @@ Universal.Text = ""
 Universal.TextColor3 = Color3.fromRGB(255, 255, 255)
 Universal.TextSize = 14.000
 Universal.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/UniversalKey", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/UniversalKey", true))()
 wait()
 game:GetService("CoreGui")["SpecificUniversal"]:Destroy()
 end)
