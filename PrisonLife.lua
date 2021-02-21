@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/YummySource",true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/YummySource.txt",true))()
 
 local Tools = library:CreateWindow('Main')
 local Misc = library:CreateWindow('Misc')
