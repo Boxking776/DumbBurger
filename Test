@@ -118,7 +118,7 @@ function VLib:Window(text, textgame, circletext)
 	local FirstTab = false
 	local MainFrame = Instance.new("ImageLabel")
 	local MainCorner = Instance.new("UICorner")
-	local LeftFrame = Instance.new("Frame")
+	local LeftFrame = Instance.new("ImageLabel")
 	local LeftFrameCorner = Instance.new("UICorner")
 	local MainTitle = Instance.new("TextLabel")
 	local Circle = Instance.new("ImageLabel")
@@ -148,6 +148,7 @@ function VLib:Window(text, textgame, circletext)
 	LeftFrame.BackgroundColor3 = Color3.fromRGB(32, 33, 37)
 	LeftFrame.Position = UDim2.new(-0.000674468291, 0, -0.000149806539, 0)
 	LeftFrame.Size = UDim2.new(0, 186, 0, 395)
+	LeftFrame.Image = 'rbxassetid://0'
 
 	LeftFrameCorner.CornerRadius = UDim.new(0, 7)
 	LeftFrameCorner.Name = "LeftFrameCorner"
