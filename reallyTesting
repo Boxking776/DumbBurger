@@ -1,7 +1,7 @@
 -- Infectious Smile
 if game.PlaceId == 5985232436 then 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/InfectiousSmile.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/InfectiousSmile.lua",true))()
 
 else
 
@@ -9,7 +9,7 @@ else
 -- Are You Genius
 if game.PlaceId == 594511841 then
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/AreUSmart.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/AreUSmart.lua",true))()
 
 
 else
@@ -18,7 +18,7 @@ else
 -- Mow My Lawn 2
 if game.PlaceId == 115917693 then
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/MowMyLawn.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/MowMyLawn.lua",true))()
 
 else
     
@@ -26,7 +26,7 @@ else
 -- Bee Swarm  
 if game.PlaceId == 1537690962 then
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/BeeSwarmGood.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/BeeSwarmGood.lua",true))()
 
 else
                 
@@ -34,14 +34,14 @@ else
  -- Prison Life 
 if game.PlaceId == 155615604 then
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/PrisonLife.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/PrisonLife.lua",true))()
 
 else
                     
 
 if game.PlaceId == 537413528 then
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/babft.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/babft.lua",true))()
 
 else    
   
