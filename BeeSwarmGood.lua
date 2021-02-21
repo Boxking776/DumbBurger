@@ -8,7 +8,7 @@ end
 
 wait()
 
-local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/Test"))()
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/GrubHubMakesMePee/DumbBurger/main/Test"))()
 
 
 local Open = Instance.new("ImageLabel")
