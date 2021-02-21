@@ -1,0 +1,118 @@
+
+-- Instances:
+
+local PremiumBasic = Instance.new("ScreenGui")
+local PremiumBasic_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Basic = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local BasicVersion = Instance.new("TextLabel")
+local Premium = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local PremiumVersion = Instance.new("TextLabel")
+local ThePremiumVersionisforlevel6Exploits = Instance.new("TextLabel")
+
+--Properties:
+
+PremiumBasic.Name = "PremiumBasic"
+PremiumBasic.Parent = game.CoreGui
+PremiumBasic.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+PremiumBasic_2.Name = "PremiumBasic"
+PremiumBasic_2.Parent = PremiumBasic
+PremiumBasic_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PremiumBasic_2.Position = UDim2.new(0.4, 0, 0.4, 0)
+PremiumBasic_2.Size = UDim2.new(0, 352, 0, 180)
+
+UICorner.CornerRadius = UDim.new(0, 35)
+UICorner.Parent = PremiumBasic_2
+
+Basic.Name = "Basic"
+Basic.Parent = PremiumBasic_2
+Basic.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Basic.Position = UDim2.new(0.0682867691, 0, 0.200561762, 0)
+Basic.Size = UDim2.new(0, 112, 0, 106)
+Basic.Font = Enum.Font.SourceSans
+Basic.Text = ""
+Basic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Basic.TextSize = 14.000
+Basic.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/UnOutDated", true))()
+wait()
+game:GetService("CoreGui")["PremiumBasic"]:Destroy()
+end)
+
+ImageLabel.Parent = Basic
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0727808848, 0, 0.0502317883, 0)
+ImageLabel.Size = UDim2.new(0, 95, 0, 95)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6417806627"
+
+UICorner_2.Parent = Basic
+
+BasicVersion.Name = "BasicVersion"
+BasicVersion.Parent = Basic
+BasicVersion.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+BasicVersion.BackgroundTransparency = 1.000
+BasicVersion.BorderSizePixel = 0
+BasicVersion.Position = UDim2.new(-0.00892829895, 0, 0.886792481, 0)
+BasicVersion.Size = UDim2.new(0, 112, 0, 50)
+BasicVersion.Font = Enum.Font.Ubuntu
+BasicVersion.Text = "Basic Version"
+BasicVersion.TextColor3 = Color3.fromRGB(255, 255, 255)
+BasicVersion.TextSize = 16.000
+
+Premium.Name = "Premium"
+Premium.Parent = PremiumBasic_2
+Premium.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Premium.Position = UDim2.new(0.617131531, 0, 0.200541109, 0)
+Premium.Size = UDim2.new(0, 112, 0, 105)
+Premium.Font = Enum.Font.SourceSans
+Premium.Text = ""
+Premium.TextColor3 = Color3.fromRGB(255, 255, 255)
+Premium.TextSize = 14.000
+Premium.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StopReverseEngineeringMyScripts/WhatAreYouDoingHere/main/UnOutDated", true))()
+wait()
+game:GetService("CoreGui")["PremiumBasic"]:Destroy()
+end)
+
+ImageLabel_2.Parent = Premium
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0727808848, 0, 0.0502317883, 0)
+ImageLabel_2.Size = UDim2.new(0, 95, 0, 95)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6417708550"
+
+UICorner_3.Parent = Premium
+
+PremiumVersion.Name = "PremiumVersion"
+PremiumVersion.Parent = Premium
+PremiumVersion.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+PremiumVersion.BackgroundTransparency = 1.000
+PremiumVersion.BorderSizePixel = 0
+PremiumVersion.Position = UDim2.new(0, 0, 0.915094256, 0)
+PremiumVersion.Size = UDim2.new(0, 112, 0, 50)
+PremiumVersion.Font = Enum.Font.Ubuntu
+PremiumVersion.Text = "Premium Version"
+PremiumVersion.TextColor3 = Color3.fromRGB(255, 255, 255)
+PremiumVersion.TextSize = 16.000
+
+ThePremiumVersionisforlevel6Exploits.Name = "The Premium Version is for  level 6+ Exploits."
+ThePremiumVersionisforlevel6Exploits.Parent = PremiumBasic_2
+ThePremiumVersionisforlevel6Exploits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ThePremiumVersionisforlevel6Exploits.BackgroundTransparency = 1.000
+ThePremiumVersionisforlevel6Exploits.BorderSizePixel = 0
+ThePremiumVersionisforlevel6Exploits.Position = UDim2.new(0.306023121, 0, -0.0157252513, 0)
+ThePremiumVersionisforlevel6Exploits.Size = UDim2.new(0, 135, 0, 38)
+ThePremiumVersionisforlevel6Exploits.Font = Enum.Font.Ubuntu
+ThePremiumVersionisforlevel6Exploits.Text = "The Premium Version Is For Level 6+ Exploits."
+ThePremiumVersionisforlevel6Exploits.TextColor3 = Color3.fromRGB(255, 255, 255)
+ThePremiumVersionisforlevel6Exploits.TextSize = 16.000
