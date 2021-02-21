@@ -114,6 +114,7 @@ UserInputService.InputBegan:Connect(
 function VLib:Window(text, textgame, circletext)
 	local FirstTab = false
 	local MainFrame = Instance.new("Frame")
+	local MainFrameImage = Instance.new("ImageLabel")
 	local MainCorner = Instance.new("UICorner")
 	local LeftFrame = Instance.new("Frame")
 	local LeftFrameCorner = Instance.new("UICorner")
@@ -129,6 +130,14 @@ function VLib:Window(text, textgame, circletext)
 	local ContainerHold = Instance.new("Folder")
 	local DragFrame = Instance.new("Frame")
 
+	MainFrameImage.Name = "MainFrameImage" ------------------------------------------------------------------
+	MainFrameImage.Parent = Library
+	MainFrameImage.BackgroundColor3 = Color3.fromRGB(22, 23, 27)
+	MainFrameImage.Position = UDim2.new(0.340104192, 0, 0.297149122, 0)
+	MainFrameImage.Size = UDim2.new(0, 614, 0, 395)
+	MainFrameImage.Image = 'rbxassetid://482777689'
+	MainFrameImage.Visible = false ------------------------------------------------------------------
+	
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Library
 	MainFrame.BackgroundColor3 = Color3.fromRGB(22, 23, 27)
