@@ -1347,7 +1347,7 @@ function VLib:Window(text, textgame, circletext)
 			Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Label.TextSize = 14.000
 			Label.Text = text
-			Label.BackgroundTransparency = 1
+			Label.BackgroundTransparency = 0.5
 
 			LabelCorner.CornerRadius = UDim.new(0, 6)
 			LabelCorner.Name = "LabelCorner"
@@ -1369,7 +1369,7 @@ function VLib:Window(text, textgame, circletext)
 			Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Label.TextSize = 20.000
 			Label.Text = text
-			Label.BackgroundTransparency = 1
+			Label.BackgroundTransparency = 0.5
 
 			LabelCorner.CornerRadius = UDim.new(0, 6)
 			LabelCorner.Name = "LabelCorner"
