@@ -346,6 +346,7 @@ function VLib:Window(text, textgame, circletext)
 			Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Button.TextSize = 14.000
 			Button.Text = text
+			Button.BackgroundTransparency = 0.5
 
 			ButtonCorner.CornerRadius = UDim.new(0, 6)
 			ButtonCorner.Name = "ButtonCorner"
@@ -404,6 +405,7 @@ function VLib:Window(text, textgame, circletext)
 			Toggle.Text = ""
 			Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Toggle.TextSize = 14.000
+			Toggle.BackgroundTransparency = 0.5
 
 			ToggleCorner.CornerRadius = UDim.new(0, 6)
 			ToggleCorner.Name = "ToggleCorner"
@@ -532,6 +534,7 @@ function VLib:Window(text, textgame, circletext)
 			Slider.Text = ""
 			Slider.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Slider.TextSize = 14.000
+			Slider.BackgroundTransparency = 0.5
 
 			Title.Name = "Title"
 			Title.Parent = Slider
@@ -649,6 +652,7 @@ function VLib:Window(text, textgame, circletext)
 			Dropdown.Text = ""
 			Dropdown.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Dropdown.TextSize = 14.000
+			Dropdown.BackgroundTransparency = 0.5
 
 			Title.Name = "Title"
 			Title.Parent = Dropdown
@@ -901,6 +905,7 @@ function VLib:Window(text, textgame, circletext)
 			Colorpicker.Text = ""
 			Colorpicker.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Colorpicker.TextSize = 14.000
+			Colorpicker.BackgroundTransparency = 0.5
 
 			Title.Name = "Title"
 			Title.Parent = Colorpicker
@@ -1369,7 +1374,7 @@ function VLib:Window(text, textgame, circletext)
 			Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Label.TextSize = 20.000
 			Label.Text = text
-			Label.BackgroundTransparency = 1
+			Label.BackgroundTransparency = 0.5
 
 			LabelCorner.CornerRadius = UDim.new(0, 6)
 			LabelCorner.Name = "LabelCorner"
@@ -1397,6 +1402,7 @@ function VLib:Window(text, textgame, circletext)
 			Textbox.Text = ""
 			Textbox.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Textbox.TextSize = 14.000
+			Textbox.BackgroundTransparency = 0.5
 
 			Title.Name = "Title"
 			Title.Parent = Textbox
@@ -1468,6 +1474,7 @@ function VLib:Window(text, textgame, circletext)
 			Textbox.Text = ""
 			Textbox.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Textbox.TextSize = 14.000
+			Textbox.BackgroundTransparency = 0.5
 
 			Title.Name = "Title"
 			Title.Parent = Textbox
