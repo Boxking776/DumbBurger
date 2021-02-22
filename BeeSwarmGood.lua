@@ -56,7 +56,6 @@ local fieldTPs = s:Tab("Field Selection")
 local waypoints = s:Tab("Waypoints")
 local remotes = s:Tab("Remotes")
 local Themes = s:Tab("Themes")
-local CThemes = s:Tab("Community Themes")
 local Settings = s:Tab("Settings")
 local Credits = s:Tab("Credits")
 local Universal = s:Tab("Universal")
@@ -206,7 +205,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/GrubHubNon
 end)
 
 
-CThemes:Header("Coming Soon", function()
+Themes:Header("Community Themes: Coming Soon", function()
     
 end)
 
