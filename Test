@@ -1448,6 +1448,78 @@ function VLib:Window(text, textgame, circletext)
 
 			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
 		end
+		
+		
+		function ContainerItems:ThemeId(text, disapper, callback)
+			local Textbox = Instance.new("TextButton")
+			local Title = Instance.new("TextLabel")
+			local TextboxFrame = Instance.new("Frame")
+			local TextboxFrameCorner = Instance.new("UICorner")
+			local TextBox = Instance.new("TextBox")
+			local TextboxCorner = Instance.new("UICorner")
+
+			Textbox.Name = "ThemeId"
+			Textbox.Parent = Container
+			Textbox.BackgroundColor3 = Color3.fromRGB(32, 33, 37)
+			Textbox.Position = UDim2.new(-0.747557044, 0, 0.729113936, 0)
+			Textbox.Size = UDim2.new(0, 403, 0, 28)
+			Textbox.AutoButtonColor = false
+			Textbox.Font = Enum.Font.Gotham
+			Textbox.Text = ""
+			Textbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Textbox.TextSize = 14.000
+
+			Title.Name = "Title"
+			Title.Parent = Textbox
+			Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title.BackgroundTransparency = 1.000
+			Title.Position = UDim2.new(0.0198511165, 0, 0, 0)
+			Title.Size = UDim2.new(0, 192, 0, 28)
+			Title.Font = Enum.Font.Gotham
+			Title.Text = text
+			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title.TextSize = 14.000
+			Title.TextXAlignment = Enum.TextXAlignment.Left
+
+			TextboxFrame.Name = "TextboxFrame"
+			TextboxFrame.Parent = Textbox
+			TextboxFrame.BackgroundColor3 = Color3.fromRGB(22, 23, 27)
+			TextboxFrame.Position = UDim2.new(0.650124013, 0, 0.142857149, 0)
+			TextboxFrame.Size = UDim2.new(0, 134, 0, 19)
+
+			TextboxFrameCorner.CornerRadius = UDim.new(0, 6)
+			TextboxFrameCorner.Name = "TextboxFrameCorner"
+			TextboxFrameCorner.Parent = TextboxFrame
+
+			TextBox.Parent = TextboxFrame
+			TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			TextBox.BackgroundTransparency = 1.000
+			TextBox.Size = UDim2.new(0, 134, 0, 19)
+			TextBox.Font = Enum.Font.Gotham
+			TextBox.Text = ""
+			TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+			TextBox.TextSize = 14.000
+
+			TextboxCorner.CornerRadius = UDim.new(0, 6)
+			TextboxCorner.Name = "TextboxCorner"
+			TextboxCorner.Parent = Textbox
+
+			TextBox.FocusLost:Connect(
+				function(ep)
+					if ep then
+						if #TextBox.Text > 0 then
+							pcall(callback, TextBox.Text)
+							if disapper then
+								TextBox.Text = ""
+							end
+						end
+					end
+				end
+			)
+
+			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
+		end
+		
 		return ContainerItems
 	end
 	return Tabs
