@@ -1504,18 +1504,6 @@ function VLib:Window(text, textgame, circletext)
 			TextboxCorner.Name = "TextboxCorner"
 			TextboxCorner.Parent = Textbox
 
-			TextBox.FocusLost:Connect(
-				function(ep)
-					if ep then
-						if #TextBox.Text > 0 then
-							pcall(callback, TextBox.Text)
-							if disapper then
-								TextBox.Text = ""
-							end
-						end
-					end
-				end
-			)
 
 			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
 		end
